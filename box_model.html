@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            background-color: #ffc0cb;
+            margin-top: 0;
+        }
+        h1{
+            background-color: #00aeff;
+            padding: 16px;
+        }
+        h2{
+            background-color: #6b8e23;
+            margin-top: 56px;
+            border-bottom: 10px solid #f57206;
+        }
+        .destaque{
+            background-color: #9900ff;
+        }
+        .size{
+            width: 50%;
+            height: 110px;
+        }
+        .padding{
+            padding: 40px;
+        }
+        .margin{
+            margin: 50px 0 30px 60px;
+        }
+        .border{
+            border-top-style: solid;
+            border-top-width: 30px;
+            border-top-color: #ffe600;
+        }
+        .outline{
+            outline: 5px dashed #38b642;
+        }
+        .margin-auto{
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            /*se colocar só margin: auto, ele não vai colocar bottom pq não colocamos, já q no 'h2' já colocamos um margin-top*/
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Model</h1>
+    <h2>Width e Height</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellat minus molestiae, voluptas natus dicta alias optio laudantium adipisci ipsam!</p>
+        <p class="destaque size">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis distinctio ipsa, temporibus minima ratione.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nobis eos, mollitia rerum incidunt accusamus.</p>
+    <h2>Padding</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellat minus molestiae, voluptas natus dicta alias optio laudantium adipisci ipsam!</p>
+        <p class="destaque padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis distinctio ipsa, temporibus minima ratione.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nobis eos, mollitia rerum incidunt accusamus.</p>
+    <h2>Margin</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellat minus molestiae, voluptas natus dicta alias optio laudantium adipisci ipsam!</p>
+        <p class="destaque margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis distinctio ipsa, temporibus minima ratione.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nobis eos, mollitia rerum incidunt accusamus.</p>
+    <h2>Border</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellat minus molestiae, voluptas natus dicta alias optio laudantium adipisci ipsam!</p>
+        <p class="destaque border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis distinctio ipsa, temporibus minima ratione.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nobis eos, mollitia rerum incidunt accusamus.</p>
+    <h2>Outline</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellat minus molestiae, voluptas natus dicta alias optio laudantium adipisci ipsam!</p>
+        <p class="destaque outline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis distinctio ipsa, temporibus minima ratione.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nobis eos, mollitia rerum incidunt accusamus.</p>
+    <h2 class="destaque margin-auto">Margin Auto</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellat minus molestiae, voluptas natus dicta alias optio laudantium adipisci ipsam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis distinctio ipsa, temporibus minima ratione.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nobis eos, mollitia rerum incidunt accusamus.</p>
+</body>
+</html>
